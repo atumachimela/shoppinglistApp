@@ -1,0 +1,91 @@
+/*********************HEADER SECTION ***********************/
+.header
+{
+	font-weight: bolder;
+	font-style: italic;
+	text-align: center;
+	font-size: 1em;
+	color:red;
+	background: url(../img/bg1.jpg) no-repeat;
+	background-size: cover;
+/*********************INPUT WRAPPER  SECTION ***********************/
+}
+body
+{
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+
+}
+#inputwrapper
+{
+	margin: 0 auto;
+	/*max-width: 100%;*/
+	width: 400px;
+	border:solid black;
+	border-color:white;
+	margin-top: 100px;
+	padding-top:100px;
+	background:url(../img/img3.jpg) no-repeat;
+	height: 200px;
+	background-size: cover;
+	opacity: 0.8;
+
+	
+}
+
+#user_input
+{
+	width: 50%;
+	height: 30px;
+	margin-left: 50px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	color:grey;
+	padding-right: 120px;
+	border-radius: 2em;
+	border-color:white;
+	overflow: none;
+	margin-bottom: 20px;
+}
+#addbutton , .editbutton
+{ 
+	width: 30%;
+	height: 40px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	color:grey;
+	padding :20px;
+	line-height: 0.4em; 
+	position: relative;
+	margin-top: 1px;
+	padding-bottom: 20px;
+	margin-left: 140px;
+}
+p{
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	color:red;
+	font-size: 1.0em;
+	text-align: center;
+}
+button
+{
+	background-color:blue;
+}
+#items
+{
+	margin: 0 auto;
+	/*max-width: 100%;*/
+	width: 400px;
+	border:solid black;
+	border-color:white;
+	background:url(../img/img1.jpg) no-repeat;
+	background-size: cover;
+	background-color: green;
+	margin-bottom: 50px;
+	font-weight: bolder;
+
+}
